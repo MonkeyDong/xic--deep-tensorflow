@@ -1,7 +1,7 @@
 import numpy as np
 import os
 
-paths = [('AA',360),('CC',189),('MM',472),('PP',284)]
+paths = [('AA',196),('CC',107),('MM',262),('PP',141)]
 l = 20
 h = 90
 
@@ -26,7 +26,7 @@ def plots(path,low,high):
 		for i in range(len(x1)):
 			if x1[i] > me1 and x1[i] < me2:
 				vv.append(x2[i])
-		arr.append(vv)
+		arr.append(list(set(vv)))
 	dic = {}
 	for k in arr:
 		for j in k:
