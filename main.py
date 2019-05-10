@@ -7,9 +7,9 @@ from metrics_result import res_metrics
 import shutil
 import os
 
-paths = [('AA',360),('CC',189),('MM',472),('PP',284)]
-l = 20
-h = 90
+paths = [('AA',196),('CC',107),('MM',262),('PP',141)]
+l = 5
+h = 95
 
 
 for i in range(10):
